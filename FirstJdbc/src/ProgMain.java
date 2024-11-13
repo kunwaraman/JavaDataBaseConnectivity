@@ -9,8 +9,7 @@ public class ProgMain {
             String drivername="com.mysql.cj.jdbc.Driver";
             Class.forName(drivername);
             String url="jdbc:mysql://localhost:3306/world";
-            //String username="root";
-           // String pswd = "aman123";
+            // chosee the data base password and usernmae
             Connection conn = DriverManager.getConnection(url,username,pswd);
 
             Statement st = conn.createStatement();
